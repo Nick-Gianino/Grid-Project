@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+  }
+
+html, body {
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+
+.App{
+    overflow: hidden;
+    background-color: rgb(24, 22, 22);
+    height: 100vh;
+    width: 100vw;
+}
+
+.Conatiner{
+    /* display: grid;
+    grid-template-areas: 
+    'main-title'
+    'content'; */
+    
+}
+
+.Title-Container{
+   
+    margin: 0 auto;
+    background-color: gray;
+    border: 1px dashed green;
+}
+
+.main-title{
+    text-align: center;
+    max-width: 100%;
+    border: 1px dashed red;
+}
+
+.main-grid {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed blue;
+}
+
+.main-grid button {
+    height: 5vh;
+    width: 20vw;
+    background-color: blue;
+    margin: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonContainer {
+    height: 90vh;
+    position: top;
+}
+
+.ContainerQuery {
+    box-sizing: border-box;
+    border: 1px dashed yellow;
+    width:90vw;
+    height: 70vh;
+}
+
+
+.ToDoList{
+    
+}
+
+.HomeButton{  
+    
+}
+
+.HomeButton:hover {
+    background-color: red;
+}
