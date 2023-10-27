@@ -35,7 +35,7 @@ const MainGrid = () => {
                 </div>
             ) : (
                 <div className = "buttonContainer">
-                    <button className = "HomeButton" onClick={handleHomeClick}>
+                    <button className = "relative h-10 w-10 bg-gray-250" onClick={handleHomeClick}>
                         Home
                     </button >
                     {currentEvent === 'ContainerQuery' && <ContainerQuery /> }
